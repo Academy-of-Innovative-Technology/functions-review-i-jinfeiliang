@@ -35,8 +35,11 @@ function Greed(name){
 function Calculate_Area_Rectangle(width, height){
     Output2.innerHTML = `The area of a ${width}x${height} rectangle is ${width * height} square units`;
 }
-function Show_Favorite_Color(){
-    
+function Show_Favorite_Color(color){
+    Output2.innerHTML = `Your favorite color is ${color}! 🎨`;
+}
+function Convert_Celsius_To_Fahrenheit(Celsius){
+    Output2.innerHTML = `${Celsius}C to Fahrenheit is ${(Celsius * 9/5) + 32}`;
 }
 
 
