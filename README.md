@@ -6,7 +6,7 @@ This project is to review **how to define and call functions** in JavaScript —
 [Demo](https://output.jsbin.com/kixefog/): https://output.jsbin.com/kixefog/
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Learning Objectives  
 
 By the end of this activity, you should be able to:
 
