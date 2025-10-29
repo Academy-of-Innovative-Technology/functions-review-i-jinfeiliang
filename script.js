@@ -39,7 +39,7 @@ function Show_Favorite_Color(color){
     Output2.innerHTML = `Your favorite color is ${color}! 🎨`;
 }
 function Convert_Celsius_To_Fahrenheit(Celsius){
-    Output2.innerHTML = `${Celsius}C to Fahrenheit is ${(Celsius * 9/5) + 32}`;
+    Output2.innerHTML = `${Celsius}°C to Fahrenheit is ${(Celsius * 9/5) + 32}°`;
 }
 
 
@@ -53,3 +53,19 @@ document.querySelector("#Say_Hello_BTN").addEventListener("click", Say_Hello);
 document.querySelector("#Show_Today_Date_BTN").addEventListener("click", Show_Today_Date);
 document.querySelector("#Motivation_BTN").addEventListener("click", Get_Motivation);
 document.querySelector("#Show_Rep_BTN").addEventListener("click", Show_Who_You_Rep);
+
+document.querySelector("#Add_BTN").addEventListener("click", () => {
+    Add(5,7);
+})
+document.querySelector("#Greet_Alex_BTN").addEventListener("click", () => {
+    Calculate_Area_Rectangle(10,6);
+})
+document.querySelector("#Calculate_Area_BTN").addEventListener("click", () => {
+    Greed("Naldo");
+})
+document.querySelector("#Favorite_Color_BTN").addEventListener("click", () => {
+    Show_Favorite_Color("Blue");
+})
+document.querySelector("#Temperature_BTN").addEventListener("click", () => {
+    Convert_Celsius_To_Fahrenheit(25);
+})
